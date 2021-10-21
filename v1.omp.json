@@ -35,6 +35,46 @@
             "display_upstream_icon": true,
             "prefix": ""
           }
+        },
+        {
+          "type": "exit",
+          "style": "plain",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#4caf50",
+          "background_templates": [],
+          "properties": {
+            "always_enabled": true,
+            "display_exit_code": false,
+            "success_icon": "\u2665 ",
+            "color_background": false,
+            "error_icon": "\uf525 ",
+            "error_color": "red"          
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "executiontime",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "threshold": 0,
+            "style": "dallas",
+            "postfix": "s "
+          }
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "#3EC669",
+          "properties": {
+            "time_format": "15:04:05",
+            "prefix": ""
+          }
         }
       ]
     },
