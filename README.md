@@ -7,6 +7,8 @@ paste following into
   
 ```oh-my-posh --init --shell pwsh --config "C:\git\Oh-My-Posh\v1.omp.json" | Invoke-Expression```
 
+use install.ps1 for that
+
 ---
 also install new font with more symbol support:
 ex.: https://www.nerdfonts.com/
