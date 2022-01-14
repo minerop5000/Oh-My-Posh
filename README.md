@@ -1,4 +1,6 @@
 # Oh-My-Posh
+Own Oh-My-Posh-Style
+
 https://ohmyposh.dev/docs/
 
 ## setup
