@@ -9,6 +9,12 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
   type = 'prompt'
   alignment = 'left'
   newline = true
+  [[blocks.segments]]
+    type = 'python'
+    style = 'powerline'
+    background = 'transparent'
+    foreground = 'blue'
+    powerline_symbol= "\ue0b0"
 
   [[blocks.segments]]
     type = 'path'
@@ -28,7 +34,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     template = ' {{ .HEAD }}{{ if or (.Working.Changed) (.Staging.Changed) }}*{{ end }} <cyan>{{ if gt .Behind 0 }}⇣{{ end }}{{ if gt .Ahead 0 }}⇡{{ end }}</>'
 
     [blocks.segments.properties]
-      branch_icon = ''
+      branch_icon = ' '
       commit_icon = '@'
       fetch_status = true
 
